@@ -1,0 +1,20 @@
+{
+  "name": "aloy",
+  "version": "0.2.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramesaliyev/aloy.git"
+  },
+  "keywords": [],
+  "author": "Rameş Aliyev <creator@ramesaliyev.com> (http://ramesaliyev.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ramesaliyev/aloy/issues"
+  },
+  "homepage": "https://github.com/ramesaliyev/aloy#readme"
+}
