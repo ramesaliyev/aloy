@@ -6,6 +6,26 @@
 
 # Table of Contents
 
-- [Utils](./utils)
-  - [CLI](./utils/cli)
-    - **argv**: cli argument parser, my own 80 line alternative for [minimist](https://www.npmjs.com/package/minimist). Parsing result is very similar to minimist with some nuance. Check tests. ([code](./utils/cli/argv.js), [tests](./tests/utils/cli/argv.js))
+- [utils](./utils)
+  - [cli](./utils/cli)
+    - **argv.parseArgv**: cli argument parser, my own 80 line alternative for [minimist](https://www.npmjs.com/package/minimist). Parsing result is very similar to minimist with some nuance. Check tests. ([code](./utils/cli/argv.js), [tests](./tests/utils/cli/argv.js))
+
+# Usage
+
+##### Install
+
+    npm i aloy
+
+##### Example Usage
+
+    const {parseArgv} = require('aloy/utils/cli/argv');
+
+    const args = parseArgv(process.argv.slice(2));
+
+    ...
+
+# Development
+
+##### Clone
+
+    npx glone git@github.com:ramesaliyev/aloy.git
