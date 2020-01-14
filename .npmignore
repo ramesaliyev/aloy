@@ -1,3 +1,7 @@
 assets
+scripts
 tests
+.gitignore
 .glone
+LICENSE
+README.md
